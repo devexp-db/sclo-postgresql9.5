@@ -28,7 +28,7 @@
 # rpm --define 'packagename 0' .... to force the package NOT to build.
 # The base package, the libs package, the devel package, and the server package
 # always get built.
-%global prereleasetag beta2
+%global prereleasetag rc1
 %{?scl:%scl_package postgresql}
 
 %{!?beta:%global beta 0}
